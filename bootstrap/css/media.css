@@ -1,0 +1,238 @@
+.features-container {
+    background: #323232;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+@media screen and (max-width:321px) {
+    .feature {
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 58vh !important;
+    }
+.feature .containers{
+    margin-top: 0rem !important;
+}
+
+    .feature .containers .card {
+        width: 255px !important;
+        height: 126px !important;
+        margin: 2rem 0rem !important;
+    }
+
+    .feature .containers .card .pic {
+        width: 233px !important;
+        height: 126px !important;
+    }
+
+    .feature .containers .card button {
+        right: 1px !important;
+        bottom: 1px !important;
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .feature .containers .card h2 {
+        right: 36px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card2 h2 {
+        right: 26px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card p {
+        top: 8px !important;
+        right: 5px !important;
+    }
+
+    .feature .containers .card .fa-arrow-right {
+        right: 2px !important;
+        bottom: 2px !important;
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width:322px) and (max-width:409px) {
+    .feature {
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 48vh !important;
+
+    }
+
+    .feature .containers {
+        margin-bottom: 13px !important;
+        margin-top: 0px !important;
+    }
+
+    .feature .containers .card {
+        width: 323px !important;
+        height: 126px !important;
+        margin: 2rem 0rem !important;
+    }
+
+    .feature .containers .card .pic {
+        width: 288px !important;
+        height: 169px !important;
+    }
+
+    .feature .containers .card button {
+        right: 2px !important;
+        bottom: 2px !important;
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .feature .containers .card h2 {
+        right: 38px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card2 h2 {
+        right: 37px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card p {
+        top: 8px !important;
+        right: 5px !important;
+    }
+
+    .feature .containers .card .fa-arrow-right {
+        right: 5px !important;
+        bottom: 2px !important;
+        font-size: 26px !important;
+    }
+}
+
+@media screen and (min-width:410px) and (max-width:539px) {
+    .feature {
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 50vh !important;
+
+    }
+
+    .feature .containers {
+        margin-bottom: 32px !important;
+        margin-top: 0px !important;
+    }
+
+    .feature .containers .card {
+        width: 323px !important;
+        height: 126px !important;
+        margin: 2rem 0rem !important;
+    }
+
+    .feature .containers .card .pic {
+        z-index: 100;
+        width: 293px !important;
+        height: 169px !important;
+    }
+
+    .feature .containers .card button {
+        right: 2px !important;
+        bottom: 2px !important;
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .feature .containers .card h2 {
+        right: 38px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card2 h2 {
+        right: 37px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card p {
+        top: 8px !important;
+        right: 5px !important;
+    }
+
+    .feature .containers .card .fa-arrow-right {
+        right: 5px !important;
+        bottom: 2px !important;
+        font-size: 26px !important;
+    }
+
+}
+
+@media screen and (min-width:540px) and (max-width:600px) {
+    .feature {
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 50vh !important;
+
+    }
+
+    .feature .containers {
+        margin-bottom: 32px !important;
+        margin-top: 0px !important;
+    }
+
+    .feature .containers .card {
+        width: 323px !important;
+        height: 126px !important;
+        margin: 2rem 0rem !important;
+    }
+
+    .feature .containers .card .pic {
+        width: 288px !important;
+        height: 169px !important;
+    }
+
+    .feature .containers .card button {
+        right: 2px !important;
+        bottom: 2px !important;
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .feature .containers .card h2 {
+        right: 38px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card2 h2 {
+        right: 37px !important;
+        font-size: 30px !important;
+    }
+
+    .feature .containers .card p {
+        top: 8px !important;
+        right: 5px !important;
+    }
+
+    .feature .containers .card .fa-arrow-right {
+        right: 5px !important;
+        bottom: 2px !important;
+        font-size: 26px !important;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:770px) {
+    .feature {
+        display: flex !important;
+        flex-direction: column !important;
+        min-height: 48vh !important;
+
+    }
+
+    .feature .containers {
+        margin-bottom: 40px !important;
+        margin-top: 3rem !important;
+    }
+
+}
+
+@media screen and (min-width:771px) and (max-width:1150px) {
+    .feature {
+        min-height: 46vh !important;
+
+    }
+}
